@@ -5,18 +5,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>ru.sbrf.kubarev</groupId>
-  <artifactId>TestGit</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>Collections</module>
-    </modules>
+  <artifactId>Collections</artifactId>
+  <version>1.0-SNAPSHOT</version>
 
-    <name>TestGit</name>
+  <name>Collections</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
-
-
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -56,6 +50,7 @@
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
+          <version>3.0.2</version>
           <configuration>
             <archive>
               <manifest>
@@ -64,7 +59,6 @@
               </manifest>
             </archive>
           </configuration>
-          <version>3.0.2</version>
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
@@ -85,8 +79,5 @@
         </plugin>
       </plugins>
     </pluginManagement>
-
-
-
   </build>
 </project>

@@ -1,5 +1,6 @@
 package ru.sbrf.kubarev;
 
+import java.util.ArrayList;
 /**
  * Hello world!
  *
@@ -10,6 +11,7 @@ public class App
     {
         System.out.println( "Hello World!" );
 
+        List<String> list = new ArrayList();
 
 
     }
